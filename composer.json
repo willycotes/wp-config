@@ -1,0 +1,23 @@
+{
+	"name": "willycotes/wp-config",
+	"description": "Class configuration for WordPress",
+	"type": "library",
+	"license": "MIT",
+	"authors": [
+			{
+					"name": "Willy Cotes",
+					"email": "willycotes@gmail.com",
+					"homepage": "https://willycotes.dev"
+			}
+	],
+	"require-dev": {
+    "squizlabs/php_codesniffer": "^3.6",
+    "dealerdirect/phpcodesniffer-composer-installer": "^0.7.1",
+    "wp-coding-standards/wpcs": "^2.3"
+  },
+	"autoload": {
+		"psr-4": {
+			"WPConfig\\": "src/"
+		}
+	}
+}
