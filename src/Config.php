@@ -3,14 +3,14 @@
  * Class Configuration with dotenv support
  */
 
-namespace WPConfig;
+namespace WPCotesConfig;
 
-if ( ! class_exists( 'WPConfig' ) ) {
+if ( ! class_exists( 'Config' ) ) {
 
 	/**
 	 * Custom Class Configuration Environment WordPress using DotEnv dependency
 	 */
-  class WPConfig {
+  class Config {
 
 			/**
 		 * Defined constant configuration
