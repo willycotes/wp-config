@@ -1,6 +1,6 @@
 {
-	"name": "willycotes/wp-config",
-	"description": "Class configuration for WordPress",
+	"name": "willycotes/wpcotes-config",
+	"description": "Class configuration for WPCotesFramework",
 	"type": "library",
 	"license": "MIT",
 	"authors": [
@@ -17,7 +17,7 @@
   },
 	"autoload": {
 		"psr-4": {
-			"WPConfig\\": "src/"
+			"WPCotesConfig\\": "src/"
 		}
 	}
 }
